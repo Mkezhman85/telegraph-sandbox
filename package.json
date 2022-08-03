@@ -1,0 +1,21 @@
+{
+  "name": "telegraph-sandbox",
+  "version": "1.0.0",
+  "description": "Песочница для обучения работы с telegraf",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sergei Yurkin",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "telegraf": "^4.8.6",
+    "telegraf-session-local": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.6.3"
+  }
+}
